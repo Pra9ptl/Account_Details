@@ -1,0 +1,101 @@
+.topViewContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.topViewContainer>h3{
+   padding: 10px;
+   margin: 0;
+   background-color: #6E99CA;
+}
+
+.topViewContainer>div{
+    display: flex;
+    height: 100%;
+ }
+
+ /* leftContainer CSS start */
+
+.leftContainer {
+    flex: .2;
+    text-align: left;
+    padding: 10px;
+}
+
+.closeButton {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.closeButton>div {
+    height: 10px;
+    width: 10px;
+    border: solid #A1A5A2;
+    border-width: 0 0 4px 4px;
+    transform: rotate(45deg);
+}
+
+.filterButton {
+    border-radius: 10px;
+    margin: 15px 0;
+    padding: 8px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.15),0 1px 3px 1px rgba(0,0,0,.15);
+    font-weight: bold;
+}
+
+.expandLeftViewButton {
+    position: fixed;
+    left: 5px;
+    top: 8%;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #E29B40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.expandLeftViewButton>div {
+    height: 10px;
+    width: 10px;
+    border: solid white;
+    border-width: 4px 4px 0 0;
+    transform: rotate(45deg);
+}
+
+/* leftContainer CSS end */
+
+/* rightContainer CSS start */
+
+.rightContainer {
+    flex: 1;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.tableView {
+    margin: 20px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.tableView tr>td, .tableView tr>th {
+    padding: 5px 15px;
+}
+
+.tableView tr:nth-child(even) {
+    background-color: #ECECEC;
+}
+
+.tableView>thead {
+    background-color: #A1A5A2;
+}
+
+.tableView tr>th:nth-child(2) {
+    min-width: 200px;
+}
+
+/* rightContainer CSS end */

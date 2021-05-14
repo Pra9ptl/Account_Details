@@ -1,0 +1,61 @@
+.bottomViewContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.tabViewBar {
+    border-bottom: 2px solid #6E99CA;
+    margin: 8px 8px 0;
+    padding-top: 10px;
+    display: flex;
+}
+
+.tabViewContent {
+    flex: 1;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.formControl {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.formControl>div {
+    width: 10%;
+    text-align: left !important;
+    font-weight: bolder;
+}
+
+.tabButton {
+    min-width: 15%;
+    padding: 8px;
+    margin: 0;
+}
+
+.tabButton.active {
+    background-color: #6E99CA;
+    color: white;
+    font-weight: bolder;
+}
+
+.expandButton {
+    position: fixed;
+    right: 30px;
+    padding: 8px;
+}
+
+.expandButton>div {
+    height: 10px;
+    width: 10px;
+    content: '';
+    border: solid #A1A5A2;
+    border-width: 4px 4px 0 0;
+}
